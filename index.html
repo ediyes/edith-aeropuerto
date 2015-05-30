@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Load GeoJSON</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
+<script src='peru.geojson'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+<div id='map'></div>
+<script>
+for (var i = 0; i < peru.features.length; i++) {
+    peru.features[i].properties["marker-color"]="00ffff";
+    peru.features[i].properties["marker-symbol"]="airport";
+    peru.features[i].properties["title"]=peru.features[i].properties.name;
+
+    if(peru.features[i].properties.amenity=="restaurant"){
+    peru.features[i].properties["marker-color"]="#0000ff";
+    peru.features[i].properties["marker-symbol"]="restaurant";
+  
+   
+    }
+    if(peru.features[i].properties.tourism=="hotel"){
+    peru.features[i].properties["marker-color"]="#0000ff";
+    peru.features[i].properties["marker-symbol"]="lodging";
+ 
+    }
+    peru.features[i].properties["description"] = '<img width="200px" src="'+peru.features[i].properties.image +'"></img>';
+
+   
+};
+L.mapbox.accessToken = 'pk.eyJ1IjoiZWRpeWVzIiwiYSI6Im5WZElPMjgifQ.J-9jIpcP3KnYZfCtXpj0vg';
+
+L.mapbox.map('map', 'mapbox.streets')
+  .setView([37.8, -96], 4)
+  .featureLayer.setGeoJSON(peru);
+</script>
+
+
+</body>
+</html>
