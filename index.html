@@ -11,7 +11,7 @@
   body { margin:0; padding:0; }
   #map { position:absolute; top:0; bottom:0; width:100%; }
   .menu-ui {
-  background:#2EFEF7;
+  background:#A4A4A4;
   position:absolute;
   top:10px;right:10px;
   z-index:1;
@@ -38,19 +38,19 @@
       border-radius:0 0 3px 3px;
       }
     .menu-ui a:hover {
-      background:#A4A4A4;
+      background:#2EFEF7;
       color:#000000;
       font-family: impact;
       font-size: 14px; 
       }
     .menu-ui a.active {
-      background:#A4A4A4;
+      background:#2EFEF7;
       color:#000000;
       font-family: impact; 
       font-size: 14px; 
       }
       .menu-ui a.active:hover {
-        background:#A4A4A4;
+        background:#2EFEF7;
         color:#000000;
         font-family: impact; 
         font-size: 14px; 
@@ -58,7 +58,7 @@
       .hola{
         width: 650px;
         position: absolute;
-        left: 50px;
+        left: 450px;
         top: 10px;
         height: 50px;
         background: #2EFEF7;
@@ -214,7 +214,7 @@ for (var i = 0; i < peru.features.length; i++) {
 };
 L.mapbox.accessToken = 'pk.eyJ1IjoiZWRpeWVzIiwiYSI6Im5WZElPMjgifQ.J-9jIpcP3KnYZfCtXpj0vg';
 var map = L.mapbox.map('map', 'ediyes.mi9l24cj')
-  .setView([-13, -72], 4)
+  .setView([-10.5, -72.9], 5)
   .featureLayer.setGeoJSON(peru);
 
 
