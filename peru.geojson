@@ -5,690 +5,8 @@ var peru={
         {
             "type":"Feature",
             "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"San Francisco Airport",
-                image:"http://www.ohperu.com/graf/aeropuerto.jpg"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -73.8000031,
-                    -12.533
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Luisiana Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -73.7080625,
-                    -12.6722395
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"CTF",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Contamana Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.9914017,
-                    -7.3366699
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"MBP",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Aeropuerto Antonio Simons Vela",
-                image:"http://www.sanmartinenred.com/noticia/Foto_Portada/Full/NP02034_en-julio-proximo-culminarian-las-obras-de-rehabilitacion-e-implementacion-del-aeropuerto.jpg",
-                "operator":"CORPAC"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.988327,
-                    -6.018889
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"SYC",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Shiringayoc/Hacienda Hda Mejia Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -69.1669998,
-                    -11.8999996
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Palcazú Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -75.117775,
-                    -9.895833
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Intuto Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.7724962,
-                    -3.4926382
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Paramonga Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -77.8330002,
-                    -10.6669998
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"JJI",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Juanjui Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.7285995,
-                    -7.1690998
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Casa Grande Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -79.1863861,
-                    -7.7438889
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Shapaja Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.2628021,
-                    -6.57972
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"YMS",
-                "aeroway":"aerodrome",
-                "icao":"SPMS",
-                "name":"Moisés Benzaquen Rengifo Airport",
-                "wikipedia:en":"Moisés_Benzaquen_Rengifo_Airport",
-                "operator":"CORPAC S.A.",
-                "ele":"179"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.1188214,
-                    -5.8937882
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"IQT",
-                "name:en":"Crnl. FAP Francisco Secada Vignetta International Airport",
-                "aeroway":"aerodrome",
-                "source":"wikipedia",
-                "closest_town":"Iquitos",
-                "name_1":"Coronel FAP Francisco Secada Vignetta International Airport",
-                "icao":"SPQT",
-                "name":"Crnl. FAP Francisco Secada Vignetta International Airport",
-                "wikipedia:en":"Crnl._FAP_Francisco_Secada_Vignetta_International_Airport",
-                "type":"public",
-                "operator":"CORPAC S.A.",
-                "ele":"124"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -73.3054,
-                    -3.7843831
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"TCQ",
-                "name:en":"Coronel FAP Carlos Ciriani Santa Rosa International Airport",
-                "aeroway":"aerodrome",
-                "icao":"SPTN",
-                "name":"Aeropuerto Internacional Coronel FAP Carlos Ciriani Santa Rosa",
-                image:"http://static.panoramio.com/photos/1920x1280/111918608.jpg",
-                "alt_name":"Aeropuerto de Tacna",
-                "wikipedia":"es:Aeropuerto Internacional Coronel FAP Carlos Ciriani Santa Rosa",
-                "owner":"Areopuertos Andinos del Perú",
-                "ele":"469"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -70.2766584,
-                    -18.0509333
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "name":"Areodromo de Tournavista",
-                "name:pt":"Aeroporto Tournavista"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.7128444,
-                    -8.9217398
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Lagunas Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -78.6333313,
-                    -6.9000001
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"MFT",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Machu Pichu Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -72.5992933,
-                    -13.127128
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -77.4927006,
-                    -6.3949952
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"bing",
-                "fixme":"name"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -70.8866049,
-                    -12.2844248
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"RIM",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"San Nicolas Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -77.5011978,
-                    -6.3923101
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "name:en":"Nuevo Mundo Airport",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Aerodromo de Nuevo Mundo"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -73.1439454,
-                    -11.5508881
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Lamas Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.5333328,
-                    -6.4166665
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "ref":"SPJE",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Shumba Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -78.7740021,
-                    -5.5924802
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"SQU",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Saposoa Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.7684021,
-                    -6.9600301
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"CJA",
-                "name:en":"My. Gral. FAP. Armando Revoredo Iglesias Airport",
-                "aeroway":"aerodrome",
-                "source":"wikipedia",
-                "closest_town":"Cajamarca",
-                "icao":"SPJR",
-                "name":"My. Gral. FAP. Armando Revoredo Iglesias Airport",
-                "wikipedia:en":"My._Gral._FAP._Armando_Revoredo_Iglesias_Airport",
-                "type":"public",
-                "operator":"CORPAC S.A.",
-                "ele":"2676"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -78.4888,
-                    -7.1401
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Galilea Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -77.7587967,
-                    -4.0318799
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Casma Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -78.3000031,
-                    -9.4499998
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"PEM",
-                "name:en":"Padre Aldamiz International Airport",
-                "aeroway":"aerodrome",
-                "source":"wikipedia",
-                "closest_town":"Puerto Maldonado",
-                "name_1":"Aeropuerto Internacional de Puerto Maldonado",
-                "name:es":"Areopuerto Internacional Padre Aldamiz",
-                "icao":"SPTU",
-                "wikipedia:en":"Padre_Aldamiz_International_Airport",
-                "type":"military/public",
-                "operator":"Military of Peru",
-                "ele":"201"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -69.2267071,
-                    -12.6106359
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Toquepala Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -70.654469,
-                    -17.2995042
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Güeppi­ Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -75.2479019,
-                    -0.119056
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name:es":"Areopuerto de Ciudad Constitución Airport",
-                "name":"Ciudad Constitucion Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -75.0088882,
-                    -9.8652782
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "ref":"TBP",
-                "aeroway":"aerodrome",
-                "name":"Tumbes Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -80.3845417,
-                    -3.5510378
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"SFK",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Satipo Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.6330032,
-                    -11.283
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Trompeteros Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -75.039299,
-                    -3.80601
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"RIJ",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Juan Simons Vela Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -77.1600037,
-                    -6.0678601
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Zorrillos Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -75.147427,
-                    -8.432809
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Manu Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -70.8830032,
-                    -12.283
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Iscozasin Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -75.1487376,
-                    -10.1814811
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Baguá Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -78.5305112,
-                    -5.6346127
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Ciro Alegria Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -77.9169998,
-                    -4.5669999
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Orcopampa Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -72.3532851,
-                    -15.3152776
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"APE",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"San Juan Aposento Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -75.1342117,
-                    -15.355417
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Vitor Airport"
+                "name":"Vitor Airport",
+                "dpto":"arequipa"
             },
             "geometry":{
                 "type":"Point",
@@ -701,701 +19,21 @@ var peru={
         {
             "type":"Feature",
             "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "ref:ICAO":"SPAB",
-                "name":"Huancabamba Airport"
+                "name":"San Nicolas Airport",
+                "dpto":"amazonas"
             },
             "geometry":{
                 "type":"Point",
                 "coordinates":[
-                    -79.4430185,
-                    -5.2570121
+                    -77.5011978,
+                    -6.3923101
                 ]
             }
         },
         {
             "type":"Feature",
             "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Jaquí Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.4333344,
-                    -15.4666672
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Pampa Grande Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -78.0642982,
-                    -7.6160578
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Aguas Calientes Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.6832962,
-                    -8.8333302
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Alao Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.7166977,
-                    -6.5
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Celendín Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -78.1499023,
-                    -6.8676
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Puerto Inca Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.9670029,
-                    -9.3830004
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Pomacocha Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -73.2741902,
-                    -15.1791447
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"NZA",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Maria Reiche Neuman Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.9605163,
-                    -14.8538857
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "ref":"SPSS",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Masisea Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.3079751,
-                    -8.610216
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"San José de Sisa Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.6997192,
-                    -6.6175887
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Bellavista Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.292099,
-                    -5.2883902
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"El Estrecho Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -72.6706009,
-                    -2.4540601
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -70.2759866,
-                    -18.0501821
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Paita Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -81.1528015,
-                    -5.0859499
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "icao":"SPEQ",
-                "name":"Cesar Torke Podesta Airport Moquegua",
-                "ele":"1366;4480 ft"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -70.9295533,
-                    -17.1799985
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Obenteni Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.2205582,
-                    -10.7477779
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Yauca Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.5361023,
-                    -15.6189003
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"UMI",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Quince Air Base"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -70.7537431,
-                    -13.2329945
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"San Rafael Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -70.4670029,
-                    -14.2670002
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Quiruvilca Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -78.1999969,
-                    -7.9666667
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Huanacopampa Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -72.3356191,
-                    -14.1436174
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Puerto Ocopa Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.3499985,
-                    -11.1330004
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Malin Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -78.6500015,
-                    -7.6333299
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "name:en":"Jorge Chávez International Airport",
-                "name:es":"Aeropuerto Internacional Jorge Chávez",
-                "is_in":"Lima, Peru",
-                "wikipedia:en":"Jorge_Ch%C3%A1vez_International_Airport",
-                "type":"public international",
-                "operator":"Lima Airport Partners",
-                "iata":"LIM",
-                "source":"wikipedia",
-                "name_2":"Jorge Chavez Intl",
-                "icao":"SPIM",
-                "name_1":"Jorge Chávez International Airport",
-                "name":"Aeropuerto Internacional Jorge Chávez",
-                "ele":"34",
-                image:"http://www.ohperu.com/graf/aeropuerto.jpg"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -77.1138709,
-                    -12.0204439
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"wikipedia",
-                "city_served":"Mollendo",
-                "icao":"SPDO",
-                "name":"Mollendo Airport",
-                "wikipedia":"en:Mollendo Airport",
-                "is_in":"PE",
-                "type":"Public",
-                "ele":"3"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -71.9831885,
-                    -17.0447092
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Capitán FAP Leonardo Alvariño Herr Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -75.350502,
-                    -11.1286001
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Luya Airport",
-                "fixme":"does this exist?"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -79.7016983,
-                    -6.6917
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "name:en":"Tipishsa Airport",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Aeródromo de Tipishsa"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -72.756897,
-                    -9.5330601
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"REQ",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Requena Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -73.8624878,
-                    -5.0898608
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Urpay Airport",
-                "fixme":"yes"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -78.0999985,
-                    -7.7833333
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Puerto Bermudez Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.9372025,
-                    -10.2992001
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Cunocuno Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -73.0951808,
-                    -16.0455252
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"UCZ",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Santa Lucía Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.3830176,
-                    -8.3309061
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"CHM",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Manuel Prado Ugarteche Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.5355988,
-                    -11.3254004
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Picota Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.3830032,
-                    -6.9000001
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Iñapari Airport",
-                "is_in":"Perú"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -69.5594025,
-                    -10.9790001
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"MTC",
-                "name":"Aerodromo Timpia"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -72.8223683,
-                    -12.0826391
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"CHH",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Chachapoyas Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -77.856102,
-                    -6.2018099
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "name:en":"Alejandro Velasco Astete International Airport",
-                "name:es":"Aeropuerto Alejandro Velasco Astete",
-                "wikipedia:en":"Alejandro_Velasco_Astete_International_Airport",
-                "type":"Public",
-                "operator":"CORPAC S.A.",
-                "iata":"CUZ",
-                "city_served":"Cusco",
-                "source":"wikipedia",
-                "icao":"SPZO",
-                "name_1":"Alejandro Velasco Astete International Airport",
-                "name":"Aeropuerto Alejandro Velasco Astete",
-                "ele":"3310",
-                image:"http://cdn.larepublica.pe/sites/default/files/imagecache/img_noticia_640x384/imagen/2012/07/30/imagen-201.jpg"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -71.9444312,
-                    -13.5357092
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Vicco Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.2469559,
-                    -10.8478441
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "name:en":"Yauri Airport",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name:es":"Aeropuerto de Yauri",
-                "name":"Yauri Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -71.4319558,
-                    -14.7986004
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"wikipedia",
-                "city_served":"Andoas",
-                "icao":"SPAS",
-                "name":"Alferez FAP Alfredo Vladimir Sara Bauer Airport",
-                "wikipedia:en":"Alferez_FAP_Alfredo_Vladimir_Sara_Bauer_Airport",
-                "type":"public",
-                "operator":"CORPAC S.A.",
-                "ele":"222"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.4651829,
-                    -2.7959357
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome"
+                "dpto":"ucayali"
             },
             "geometry":{
                 "type":"Point",
@@ -1408,47 +46,21 @@ var peru={
         {
             "type":"Feature",
             "properties":{
-                "aeroway":"aerodrome",
-                "icao":"SPLX",
-                "name":"Lib Mandy Metropolitano"
+                "dpto":"amazonas"
             },
             "geometry":{
                 "type":"Point",
                 "coordinates":[
-                    -76.7585453,
-                    -12.3930518
+                    -77.4927006,
+                    -6.3949952
                 ]
             }
         },
         {
             "type":"Feature",
             "properties":{
-                "iata":"TYL",
-                "name:en":"Cap. FAP Victor Montes Arias Airport",
-                "aeroway":"aerodrome",
-                "source":"wikipedia",
-                "closest_town":"Talara",
-                "icao":"SPYL",
-                "name":"Aeropuerto Internacional Capitán FAP Víctor Montes Arias",
-                "wikipedia:en":"Cap._FAP_Victor_Montes_Arias_Airport",
-                "type":"public",
-                "operator":"CORPAC S.A.",
-                "ele":"86"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -81.2531,
-                    -4.5733
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Ica Airport"
+                "name":"Ica Airport",
+                "dpto":"ica"
             },
             "geometry":{
                 "type":"Point",
@@ -1461,591 +73,36 @@ var peru={
         {
             "type":"Feature",
             "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Fausa Airport"
+                "name":"Aerodromo Timpia",
+                "dpto":"cusco"
             },
             "geometry":{
                 "type":"Point",
                 "coordinates":[
-                    -71.731102,
-                    -14.7094002
+                    -72.8223683,
+                    -12.0826391
                 ]
             }
         },
         {
             "type":"Feature",
             "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Pozuzo Airport"
+                "name":"Huanacopampa Airport",
+                "dpto":"apurimac"
             },
             "geometry":{
                 "type":"Point",
                 "coordinates":[
-                    -75.5554083,
-                    -10.0716949
+                    -72.3356191,
+                    -14.1436174
                 ]
             }
         },
         {
             "type":"Feature",
             "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Patria Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -71.2669983,
-                    -13.033
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Pacasmayo Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -79.5703373,
-                    -7.4126515
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Pucacaca Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.3330002,
-                    -6.8330002
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "ref":"UCZ",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Aeródromo de Uchiza"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.458664,
-                    -8.4745781
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Olmos Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -79.7452774,
-                    -5.9847221
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "name:en":"Sepahua Airport",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Areodromo de Sepahua"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -73.0335007,
-                    -11.1417999
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"JAU",
-                "name:en":"Francisco Carle Airport",
-                "aeroway":"aerodrome",
-                "source":"wikipedia",
-                "closest_town":"Jauja",
-                "icao":"SPJJ",
-                "name":"Francisco Carle Airport",
-                "wikipedia:en":"Francisco_Carle_Airport",
-                "type":"public",
-                "ele":"3363"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -75.473585,
-                    -11.784245
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"LHC",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Caballococha Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -70.5082016,
-                    -3.9168601
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Caraveli Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -73.3611975,
-                    -15.7788578
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Siguas Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -72.1669998,
-                    -16.3670006
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Bayovar"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -81.0258026,
-                    -5.83075
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"BLP",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Huallaga Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.5821991,
-                    -7.0605602
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "ref":"TPP",
-                "iata":"TPP",
-                "name:en":"Cad. FAP Guillermo del Castillo Paredes Airport",
-                "aeroway":"aerodrome",
-                "source":"wikipedia",
-                "closest_town":"Tarapoto",
-                "icao":"SPST",
-                "name":"Aeropuerto Cadete FAP Guillermo del Castillo Paredes",
-                "wikipedia:en":"Cad._FAP_Guillermo_del_Castillo_Paredes_Airport",
-                "type":"public",
-                "operator":"CORPAC S.A.",
-                "ele":"265"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.3698585,
-                    -6.5134111
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"TCG",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Tocache Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.5224423,
-                    -8.196152
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.5563246,
-                    -4.8259093
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Chota Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -78.6500015,
-                    -6.5500002
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"El Pato Air Base"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -81.2240982,
-                    -4.5498099
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Hacienda El Valor Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -78.6447971,
-                    -5.6723232
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "name":"Aerodromo Kirigueti"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -73.1288817,
-                    -11.5743553
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"wikipedia",
-                "closest_town":"Atalaya, Ucayali",
-                "icao":"SPAY",
-                "name":"Tnte. Gral. Gerardo Pérez Pinedo Airport",
-                "wikipedia:en":"Tnte._Gral._Gerardo_P%C3%A9rez_Pinedo_Airport",
-                "type":"public",
-                "operator":"CORPAC S.A.",
-                "ele":"229"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -73.7657214,
-                    -10.728761
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "name":"Miguel Grau airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -70.7070254,
-                    -9.7691787
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Mariano Melgar"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -71.8865967,
-                    -16.7915001
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Orellana Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -75.1521988,
-                    -6.89675
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"ILQ",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "icao":"SPLO",
-                "name":"Aeropuerto de Ilo",
-                "ele":"22"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -71.3432586,
-                    -17.6926006
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Nauta Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -73.5500031,
-                    -4.5332999
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "name":"Areodromo Pata de Gallo",
-                "start_date":"2011"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -78.2705272,
-                    -7.9843961
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Puerto Victoria Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.9641037,
-                    -9.9026098
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Pias Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -77.5472031,
-                    -7.8716998
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Camana Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -72.6829987,
-                    -16.6329994
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"LIM",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Las Palmas Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.9989014,
-                    -12.1606998
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Palmas del Espino Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.4395981,
-                    -8.2925901
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Imperial Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -75.0666656,
-                    -12.3166666
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"AYP",
-                "aeroway":"aerodrome",
-                "source":"wikipedia",
-                "closest_town":"Ayacucho (Department of Peru)",
-                "icao":"SPHO",
-                "name":"Coronel FAP Alfredo Mendivil Duarte Airport",
-                 image:"https://farm4.staticflickr.com/3870/15023918617_92d2f04253_b.jpg",
-                "wikipedia:en":"Coronel_FAP_Alfredo_Mendivil_Duarte_Airport",
-                "type":"public",
-                "operator":"CORPAC S.A.",
-                "ele":"2718"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -74.2011329,
-                    -13.1477713
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"HUU",
-                "aeroway":"aerodrome",
-                "source":"wikipedia",
-                "city_served":"Huanuco",
-                "icao":"SPNC",
-                "name":"Alférez FAP David Figueroa Fernandini Airport",
-                "wikipedia:en":"Alf%C3%A9rez_FAP_David_Figueroa_Fernandini_Airport",
-                "type":"public",
-                "operator":"CORPAC S.A.",
-                "ele":"1850"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.2054607,
-                    -9.8780716
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Zorritos Airport"
+                "name":"Zorritos Airport",
+                "dpto":"tumbes"
             },
             "geometry":{
                 "type":"Point",
@@ -2058,248 +115,50 @@ var peru={
         {
             "type":"Feature",
             "properties":{
-                "iata":"ALD",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "icao":"SPAR",
-                "name":"Alerta Airport",
-                "wikipedia":"en:Alerta Airport",
-                "fixme":"verify location"
+                "name":"Tocache Airport",
+                "dpto":"san martin"
             },
             "geometry":{
                 "type":"Point",
                 "coordinates":[
-                    -69.2301931,
-                    -11.6509183
+                    -76.5224423,
+                    -8.196152
                 ]
             }
         },
         {
             "type":"Feature",
             "properties":{
-                "iata":"SYC",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Shiringayoc Airport"
+                "name":"Areodromo Pata de Gallo",
+                "dpto":"la libertad"
             },
             "geometry":{
                 "type":"Point",
                 "coordinates":[
-                    -69.1999969,
-                    -11.8832998
+                    -78.2705272,
+                    -7.9843961
                 ]
             }
         },
         {
             "type":"Feature",
             "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Ricrán Airport"
+                "name":"San Rafael Airport",
+                "dpto":"puno"
             },
             "geometry":{
                 "type":"Point",
                 "coordinates":[
-                    -76.2513123,
-                    -10.7779503
+                    -70.4670029,
+                    -14.2670002
                 ]
             }
         },
         {
             "type":"Feature",
             "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Atico Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -73.6102886,
-                    -16.2301234
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"PIO",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Capitán FAP Renán Elías Olivera International Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.2204919,
-                    -13.7434866
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "iata":"ATA",
-                "name:en":"Comandante FAP Germán Arias Graziani Airport",
-                "aeroway":"aerodrome",
-                "source":"wikipedia",
-                "closest_town":"Huaraz",
-                "name_1":"Germán Arias Graziani",
-                "icao":"SPHZ",
-                "name":"Comandante FAP Germán Arias Graziani Airport",
-                "wikipedia:en":"Comandante_FAP_Germ%C3%A1n_Arias_Graziani_Airport",
-                "type":"public_transport",
-                "operator":"Government",
-                "ele":"2773"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -77.5983161,
-                    -9.3484209
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Lobitos Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -81.2755585,
-                    -4.4486113
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "name:en":"Kiteni Airport",
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Aerodromo Kiteni"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -73.0377575,
-                    -12.6485529
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Pampa Hermosa Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -75.3000031,
-                    -7.1999998
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "icao":"SPHA",
-                "name":"Chincha Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.1128998,
-                    -13.3706999
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Lagarto Nuevo Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -69.8375015,
-                    -12.6415997
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "icao":"SPRG",
-                "name":"San Regis Airport"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -76.0999985,
-                    -13.5166664
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"MTC",
-                "name":"Aerodromo Las Malvinas"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -72.9408266,
-                    -11.8509614
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "name:en":"Cap. FAP Carlos Martínez de Pinillos International Airport",
-                "closest_town":"Trujillo",
-                "name:es":"Aeropuerto Int. Cap. FAP Carlos Martínez de Pinillos",
-                "contact:phone":"+51 44 464224",
-                "wikipedia:en":"Cap._FAP_Carlos_Mart%C3%ADnez_de_Pinillos_International_Airport",
-                "type":"public",
-                "operator":"CORPAC S.A.",
-                "iata":"TRU",
-                "source":"wikipedia",
-                "icao":"SPRU",
-                "name":"Aeropuerto Int. Cap. FAP Carlos Martínez de Pinillos",
-                image:"http://www.corpac.gob.pe/Docs/aeropuertos/imagenes/frontis_trujillo2.jpg",
-                "ele":"32"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -79.1083,
-                    -8.0825
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Pebas Airport"
+                "name":"Pebas Airport",
+                "dpto":"loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -2312,9 +171,148 @@ var peru={
         {
             "type":"Feature",
             "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
-                "name":"Pachiza Airport"
+                "name":"Obenteni Airport",
+                "dpto":"ucayali"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.2205582,
+                    -10.7477779
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aeropuerto Alejandro Velasco Astete",
+                "dpto":"cusco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -71.9444312,
+                    -13.5357092
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Güeppi­ Airport",
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -75.2479019,
+                    -0.119056
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Santa Lucía Airport",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.3830176,
+                    -8.3309061
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Contamana Airport",
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.9914017,
+                    -7.3366699
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Caballococha Airport",
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -70.5082016,
+                    -3.9168601
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Francisco Carle Airport",
+                "dpto":"junin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -75.473585,
+                    -11.784245
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Casma Airport",
+                "dpto":"ancash"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -78.3000031,
+                    -9.4499998
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Iñapari Airport",
+                "dpto":"madre de dios"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -69.5594025,
+                    -10.9790001
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Lobitos Airport",
+                "dpto":"piura"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -81.2755585,
+                    -4.4486113
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Pachiza Airport",
+                "dpto":"san martin"
             },
             "geometry":{
                 "type":"Point",
@@ -2327,16 +325,1703 @@ var peru={
         {
             "type":"Feature",
             "properties":{
-                "aeroway":"aerodrome",
-                "source":"ourairports.com",
+                "name":"Tnte. Gral. Gerardo Pérez Pinedo Airport",
+                "dpto":"ucayali"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.7657214,
+                    -10.728761
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Lagarto Nuevo Airport",
+                "dpto":"madre de dios"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -69.8375015,
+                    -12.6415997
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Urpay Airport",
+                "dpto":"la libertad"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -78.0999985,
+                    -7.7833333
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Patria Airport",
+                "dpto":"cusco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -71.2669983,
+                    -13.033
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"El Pato Air Base",
+                "dpto":"piura"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -81.2240982,
+                    -4.5498099
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Alao Airport",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.7166977,
+                    -6.5
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Malin Airport",
+                "dpto":"la libertad"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -78.6500015,
+                    -7.6333299
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Alferez FAP Alfredo Vladimir Sara Bauer Airport",
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.4651829,
+                    -2.7959357
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Ricrán Airport",
+                "dpto":"pasco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.2513123,
+                    -10.7779503
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Camana Airport",
+                "dpto":"arequipa"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -72.6829987,
+                    -16.6329994
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Pias Airport",
+                "dpto":"la libertad"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -77.5472031,
+                    -7.8716998
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Luya Airport",
+                "dpto":"lambayeque"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -79.7016983,
+                    -6.6917
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Shiringayoc Airport",
+                "dpto":"madre de dios"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -69.1999969,
+                    -11.8832998
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Alférez FAP David Figueroa Fernandini Airport",
+                "dpto":"huanuco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.2054607,
+                    -9.8780716
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Intuto Airport",
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.7724962,
+                    -3.4926382
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Chachapoyas Airport",
+                "dpto":"amazonas"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -77.856102,
+                    -6.2018099
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Paita Airport",
+                "dpto":"piura"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -81.1528015,
+                    -5.0859499
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Lib Mandy Metropolitano",
+                "dpto":"lima"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.7585453,
+                    -12.3930518
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Bellavista Airport",
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.292099,
+                    -5.2883902
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "dpto":"cusco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -70.7537431,
+                    -13.2329945
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"San Juan Aposento Airport",
+                "dpto":"ica"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -75.1342117,
+                    -15.355417
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Hacienda El Valor Airport",
+                "dpto":"amazonas"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -78.6447971,
+                    -5.6723232
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Mariano Melgar",
+                "dpto":"arequipa"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -71.8865967,
+                    -16.7915001
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Iscozasin Airport",
+                "dpto":"pasco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -75.1487376,
+                    -10.1814811
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aerodromo Kiteni",
+                "dpto":"cusco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.0377575,
+                    -12.6485529
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Manu Airport",
+                "dpto":"madre de dios"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -70.8830032,
+                    -12.283
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Vicco Airport",
+                "dpto":"pasco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.2469559,
+                    -10.8478441
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Capitán FAP Renán Elías Olivera International Airport",
+                "dpto":"ica"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.2204919,
+                    -13.7434866
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Bayovar",
+                "dpto":"piura"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -81.0258026,
+                    -5.83075
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Atico Airport",
+                "dpto":"arequipa"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.6102886,
+                    -16.2301234
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Huallaga Airport",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.5821991,
+                    -7.0605602
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aeropuerto Cadete FAP Guillermo del Castillo Paredes",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.3698585,
+                    -6.5134111
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Olmos Airport",
+                "dpto":"lambayeque"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -79.7452774,
+                    -5.9847221
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Alerta Airport",
+                "dpto":"madre de dios"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -69.2301931,
+                    -11.6509183
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Shumba Airport",
+                "dpto":"cajamarca"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -78.7740021,
+                    -5.5924802
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Puerto Ocopa Airport",
+                "dpto":"junin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.3499985,
+                    -11.1330004
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aeropuerto Internacional Jorge Chávez",
+                "dpto":"lima"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -77.1138709,
+                    -12.0204439
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Fausa Airport",
+                "dpto":"cusco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -71.731102,
+                    -14.7094002
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Areodromo de Sepahua",
+                "dpto":"ucayali"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.0335007,
+                    -11.1417999
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Quiruvilca Airport",
+                "dpto":"la libertad"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -78.1999969,
+                    -7.9666667
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Pucacaca Airport",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.3330002,
+                    -6.8330002
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Pacasmayo Airport",
+                "dpto":"la libertad"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -79.5703373,
+                    -7.4126515
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Orcopampa Airport",
+                "dpto":"arequipa"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -72.3532851,
+                    -15.3152776
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Shapaja Airport",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.2628021,
+                    -6.57972
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Capitán FAP Leonardo Alvariño Herr Airport",
+                "dpto":"junin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -75.350502,
+                    -11.1286001
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Baguá Airport",
+                "dpto":"amazonas"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -78.5305112,
+                    -5.6346127
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aerodromo Kirigueti",
+                "dpto":"cusco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.1288817,
+                    -11.5743553
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Yauri Airport",
+                "dpto":"cusco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -71.4319558,
+                    -14.7986004
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Ciro Alegria Airport",
+                "dpto":"amazonas"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -77.9169998,
+                    -4.5669999
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Trompeteros Airport",
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -75.039299,
+                    -3.80601
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Maria Reiche Neuman Airport",
+                "dpto":"ica"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.9605163,
+                    -14.8538857
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Celendín Airport",
+                "dpto":"cajamarca"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -78.1499023,
+                    -6.8676
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Cesar Torke Podesta Airport Moquegua",
+                "dpto":"moquegua"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -70.9295533,
+                    -17.1799985
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Picota Airport",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.3830032,
+                    -6.9000001
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "dpto":"tacna"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -70.2759866,
+                    -18.0501821
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"San Regis Airport",
+                "dpto":"ica"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.0999985,
+                    -13.5166664
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "dpto":"madre de dios"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -69.2267071,
+                    -12.6106359
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Puerto Bermudez Airport",
+                "dpto":"pasco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.9372025,
+                    -10.2992001
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Jaquí Airport",
+                "dpto":"arequipa"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.4333344,
+                    -15.4666672
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"San José de Sisa Airport",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.6997192,
+                    -6.6175887
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Cunocuno Airport",
+                "dpto":"arequipa"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.0951808,
+                    -16.0455252
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Pomacocha Airport",
+                "dpto":"ayacucho"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.2741902,
+                    -15.1791447
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "dpto":"madre de dios"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -70.8866049,
+                    -12.2844248
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Crnl. FAP Francisco Secada Vignetta International Airport",
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.3054,
+                    -3.7843831
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Machu Pichu Airport",
+                "dpto":"cusco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -72.5992933,
+                    -13.127128
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aeropuerto Internacional Capitán FAP Víctor Montes Arias",
+                "dpto":"piura"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -81.2531,
+                    -4.5733
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aeródromo de Tipishsa",
+                "dpto":"ucayali"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -72.756897,
+                    -9.5330601
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Coronel FAP Alfredo Mendivil Duarte Airport",
+                "dpto":"ayacucho"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.2011329,
+                    -13.1477713
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Imperial Airport",
+                "dpto":"huancavelica"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -75.0666656,
+                    -12.3166666
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Las Palmas Airport",
+                "dpto":"lima"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.9989014,
+                    -12.1606998
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Mollendo Airport",
+                "dpto":"arequipa"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -71.9831885,
+                    -17.0447092
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Casa Grande Airport",
+                "dpto":"la libertad"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -79.1863861,
+                    -7.7438889
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Paramonga Airport",
+                "dpto":"lima"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -77.8330002,
+                    -10.6669998
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aeropuerto Int. Cap. FAP Carlos Martínez de Pinillos",
+                "dpto":"la libertad"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -79.1083,
+                    -8.0825
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Tumbes Airport",
+                "dpto":"tumbes"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -80.3845417,
+                    -3.5510378
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Palcazú Airport",
+                "dpto":"pasco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -75.117775,
+                    -9.895833
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aeropuerto Antonio Simons Vela",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.988327,
+                    -6.018889
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Chincha Airport",
+                "dpto":"ica"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.1128998,
+                    -13.3706999
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"El Estrecho Airport",
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -72.6706009,
+                    -2.4540601
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Pampa Hermosa Airport",
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -75.3000031,
+                    -7.1999998
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Luisiana Airport",
+                "dpto":"cusco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.7080625,
+                    -12.6722395
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"San Francisco Airport",
+                "dpto":"cusco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.8000031,
+                    -12.533
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Comandante FAP Germán Arias Graziani Airport",
+                "dpto":"ancash"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -77.5983161,
+                    -9.3484209
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Shiringayoc/Hacienda Hda Mejia Airport",
+                "dpto":"madre de dios"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -69.1669998,
+                    -11.8999996
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aerodromo de Nuevo Mundo",
+                "dpto":"cusco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.1439454,
+                    -11.5508881
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aerodromo Las Malvinas",
+                "dpto":"cusco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -72.9408266,
+                    -11.8509614
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Puerto Inca Airport",
+                "dpto":"huanuco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.9670029,
+                    -9.3830004
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Juan Simons Vela Airport",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -77.1600037,
+                    -6.0678601
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Lagunas Airport",
+                "dpto":"cajamarca"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -78.6333313,
+                    -6.9000001
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Masisea Airport",
+                "dpto":"ucayali"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.3079751,
+                    -8.610216
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Ciudad Constitucion Airport",
+                "dpto":"pasco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -75.0088882,
+                    -9.8652782
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Requena Airport",
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.8624878,
+                    -5.0898608
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Toquepala Airport",
+                "dpto":"tacna"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -70.654469,
+                    -17.2995042
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Pampa Grande Airport",
+                "dpto":"cajamarca"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -78.0642982,
+                    -7.6160578
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aeropuerto Internacional Coronel FAP Carlos Ciriani Santa Rosa",
+                "dpto":"tacna"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -70.2766584,
+                    -18.0509333
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Palmas del Espino Airport",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.4395981,
+                    -8.2925901
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aguas Calientes Airport",
+                "dpto":"huanuco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.6832962,
+                    -8.8333302
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Lamas Airport",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.5333328,
+                    -6.4166665
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Juanjui Airport",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.7285995,
+                    -7.1690998
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aeropuerto de Ilo",
+                "dpto":"moquegua"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -71.3432586,
+                    -17.6926006
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Pozuzo Airport",
+                "dpto":"pasco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -75.5554083,
+                    -10.0716949
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Galilea Airport",
+                "dpto":"amazonas"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -77.7587967,
+                    -4.0318799
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Orellana Airport",
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -75.1521988,
+                    -6.89675
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Miguel Grau airport",
+                "dpto":"ucayali"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -70.7070254,
+                    -9.7691787
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Huancabamba Airport",
+                "dpto":"piura"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -79.4430185,
+                    -5.2570121
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Yauca Airport",
+                "dpto":"arequipa"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.5361023,
+                    -15.6189003
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Nauta Airport",
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.5500031,
+                    -4.5332999
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Moisés Benzaquen Rengifo Airport",
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.1188214,
+                    -5.8937882
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Chota Airport",
+                "dpto":"cajamarca"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -78.6500015,
+                    -6.5500002
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Zorrillos Airport",
+                "dpto":"ucayali"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -75.147427,
+                    -8.432809
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "dpto":"loreto"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.5563246,
+                    -4.8259093
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Siguas Airport",
+                "dpto":"arequipa"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -72.1669998,
+                    -16.3670006
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
                 "name":"Chala Airport",
-                "fixme":"validate"
+                "dpto":"arequipa"
             },
             "geometry":{
                 "type":"Point",
                 "coordinates":[
                     -74.2473984,
                     -15.8699999
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aeródromo de Uchiza",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.458664,
+                    -8.4745781
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Saposoa Airport",
+                "dpto":"san martin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -76.7684021,
+                    -6.9600301
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Manuel Prado Ugarteche Airport",
+                "dpto":"junin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.5355988,
+                    -11.3254004
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Aeropuerto de Andahuaylas",
+                "dpto":"apurimac"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.3525915,
+                    -13.7136362
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"My. Gral. FAP. Armando Revoredo Iglesias Airport",
+                "dpto":"cajamarca"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -78.4888,
+                    -7.1401
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Satipo Airport",
+                "dpto":"junin"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.6330032,
+                    -11.283
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Caraveli Airport",
+                "dpto":"arequipa"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -73.3611975,
+                    -15.7788578
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Areodromo de Tournavista",
+                "dpto":"huanuco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.7128444,
+                    -8.9217398
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Puerto Victoria Airport",
+                "dpto":"pasco"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    -74.9641037,
+                    -9.9026098
                 ]
             }
         }

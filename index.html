@@ -16,29 +16,27 @@
 <div id='map'></div>
 <script>
 for (var i = 0; i < peru.features.length; i++) {
+  
     peru.features[i].properties["marker-color"]="00ffff";
     peru.features[i].properties["marker-symbol"]="airport";
     peru.features[i].properties["title"]=peru.features[i].properties.name;
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="./img/1 ('+(i+1)+').png"></img>';
 
-    if(peru.features[i].properties.amenity=="restaurant"){
+   if(peru.features[i].properties.dpto=="ayacucho"){
     peru.features[i].properties["marker-color"]="#0000ff";
-    peru.features[i].properties["marker-symbol"]="restaurant";
-  
-   
+    peru.features[i].properties["marker-symbol"]="lodging"; 
     }
-    if(peru.features[i].properties.tourism=="hotel"){
-    peru.features[i].properties["marker-color"]="#0000ff";
-    peru.features[i].properties["marker-symbol"]="lodging";
- 
+    if(peru.features[i].properties.dpto=="apurimac"){
+    peru.features[i].properties["marker-color"]="#346";
+    peru.features[i].properties["marker-symbol"]="lodging"; 
     }
-    peru.features[i].properties["description"] = '<img width="200px" src="'+peru.features[i].properties.image +'"></img>';
+
 
    
 };
 L.mapbox.accessToken = 'pk.eyJ1IjoiZWRpeWVzIiwiYSI6Im5WZElPMjgifQ.J-9jIpcP3KnYZfCtXpj0vg';
-
 L.mapbox.map('map', 'mapbox.streets')
-  .setView([37.8, -96], 4)
+  .setView([-13, -72], 4)
   .featureLayer.setGeoJSON(peru);
 </script>
 
