@@ -6,7 +6,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Vitor Airport",
-                "dpto":"arequipa"
+                "dpto":"Arequipa"
             },
             "geometry":{
                 "type":"Point",
@@ -20,7 +20,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"San Nicolas Airport",
-                "dpto":"amazonas"
+                "dpto":"Amazonas"
             },
             "geometry":{
                 "type":"Point",
@@ -33,7 +33,7 @@ var peru={
         {
             "type":"Feature",
             "properties":{
-                "dpto":"ucayali"
+                "dpto":"Ucayali"
             },
             "geometry":{
                 "type":"Point",
@@ -46,7 +46,7 @@ var peru={
         {
             "type":"Feature",
             "properties":{
-                "dpto":"amazonas"
+                "dpto":"Amazonas"
             },
             "geometry":{
                 "type":"Point",
@@ -60,7 +60,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Ica Airport",
-                "dpto":"ica"
+                "dpto":"Ica"
             },
             "geometry":{
                 "type":"Point",
@@ -74,7 +74,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aerodromo Timpia",
-                "dpto":"cusco"
+                "dpto":"Cusco"
             },
             "geometry":{
                 "type":"Point",
@@ -88,7 +88,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Huanacopampa Airport",
-                "dpto":"apurimac"
+                "dpto":"Apurimac"
             },
             "geometry":{
                 "type":"Point",
@@ -102,7 +102,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Zorritos Airport",
-                "dpto":"tumbes"
+                "dpto":"Tumbes"
             },
             "geometry":{
                 "type":"Point",
@@ -116,7 +116,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Tocache Airport",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -130,7 +130,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Areodromo Pata de Gallo",
-                "dpto":"la libertad"
+                "dpto":"La Libertad"
             },
             "geometry":{
                 "type":"Point",
@@ -144,7 +144,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"San Rafael Airport",
-                "dpto":"puno"
+                "dpto":"Puno"
             },
             "geometry":{
                 "type":"Point",
@@ -158,7 +158,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Pebas Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -172,7 +172,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Obenteni Airport",
-                "dpto":"ucayali"
+                "dpto":"Ucayali"
             },
             "geometry":{
                 "type":"Point",
@@ -186,7 +186,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aeropuerto Alejandro Velasco Astete",
-                "dpto":"cusco"
+                "dpto":"Cusco"
             },
             "geometry":{
                 "type":"Point",
@@ -200,7 +200,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Güeppi­ Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -214,7 +214,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Santa Lucía Airport",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -228,7 +228,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Contamana Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -242,7 +242,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Caballococha Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -256,7 +256,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Francisco Carle Airport",
-                "dpto":"junin"
+                "dpto":"Junín"
             },
             "geometry":{
                 "type":"Point",
@@ -270,7 +270,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Casma Airport",
-                "dpto":"ancash"
+                "dpto":"Ancash"
             },
             "geometry":{
                 "type":"Point",
@@ -284,7 +284,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Iñapari Airport",
-                "dpto":"madre de dios"
+                "dpto":"Madre de Dios"
             },
             "geometry":{
                 "type":"Point",
@@ -298,7 +298,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Lobitos Airport",
-                "dpto":"piura"
+                "dpto":"Piura"
             },
             "geometry":{
                 "type":"Point",
@@ -312,7 +312,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Pachiza Airport",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -326,7 +326,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Tnte. Gral. Gerardo Pérez Pinedo Airport",
-                "dpto":"ucayali"
+                "dpto":"Ucayali"
             },
             "geometry":{
                 "type":"Point",
@@ -340,7 +340,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Lagarto Nuevo Airport",
-                "dpto":"madre de dios"
+                "dpto":"Madre de Dios"
             },
             "geometry":{
                 "type":"Point",
@@ -354,7 +354,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Urpay Airport",
-                "dpto":"la libertad"
+                "dpto":"La Libertad"
             },
             "geometry":{
                 "type":"Point",
@@ -368,7 +368,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Patria Airport",
-                "dpto":"cusco"
+                "dpto":"Cusco"
             },
             "geometry":{
                 "type":"Point",
@@ -382,7 +382,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"El Pato Air Base",
-                "dpto":"piura"
+                "dpto":"Piura"
             },
             "geometry":{
                 "type":"Point",
@@ -396,7 +396,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Alao Airport",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -410,7 +410,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Malin Airport",
-                "dpto":"la libertad"
+                "dpto":"La Libertad"
             },
             "geometry":{
                 "type":"Point",
@@ -424,7 +424,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Alferez FAP Alfredo Vladimir Sara Bauer Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -438,7 +438,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Ricrán Airport",
-                "dpto":"pasco"
+                "dpto":"Pasco"
             },
             "geometry":{
                 "type":"Point",
@@ -452,7 +452,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Camana Airport",
-                "dpto":"arequipa"
+                "dpto":"Arequipa"
             },
             "geometry":{
                 "type":"Point",
@@ -466,7 +466,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Pias Airport",
-                "dpto":"la libertad"
+                "dpto":"La Libertad"
             },
             "geometry":{
                 "type":"Point",
@@ -480,7 +480,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Luya Airport",
-                "dpto":"lambayeque"
+                "dpto":"Lambayeque"
             },
             "geometry":{
                 "type":"Point",
@@ -494,7 +494,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Shiringayoc Airport",
-                "dpto":"madre de dios"
+                "dpto":"Madre de Dios"
             },
             "geometry":{
                 "type":"Point",
@@ -508,7 +508,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Alférez FAP David Figueroa Fernandini Airport",
-                "dpto":"huanuco"
+                "dpto":"Huanuco"
             },
             "geometry":{
                 "type":"Point",
@@ -522,7 +522,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Intuto Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -536,7 +536,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Chachapoyas Airport",
-                "dpto":"amazonas"
+                "dpto":"Amazonas"
             },
             "geometry":{
                 "type":"Point",
@@ -550,7 +550,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Paita Airport",
-                "dpto":"piura"
+                "dpto":"Piura"
             },
             "geometry":{
                 "type":"Point",
@@ -564,7 +564,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Lib Mandy Metropolitano",
-                "dpto":"lima"
+                "dpto":"Lima"
             },
             "geometry":{
                 "type":"Point",
@@ -578,7 +578,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Bellavista Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -591,7 +591,7 @@ var peru={
         {
             "type":"Feature",
             "properties":{
-                "dpto":"cusco"
+                "dpto":"Cusco"
             },
             "geometry":{
                 "type":"Point",
@@ -605,7 +605,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"San Juan Aposento Airport",
-                "dpto":"ica"
+                "dpto":"Ica"
             },
             "geometry":{
                 "type":"Point",
@@ -619,7 +619,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Hacienda El Valor Airport",
-                "dpto":"amazonas"
+                "dpto":"Amazonas"
             },
             "geometry":{
                 "type":"Point",
@@ -633,7 +633,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Mariano Melgar",
-                "dpto":"arequipa"
+                "dpto":"Arequipa"
             },
             "geometry":{
                 "type":"Point",
@@ -647,7 +647,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Iscozasin Airport",
-                "dpto":"pasco"
+                "dpto":"Pasco"
             },
             "geometry":{
                 "type":"Point",
@@ -661,7 +661,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aerodromo Kiteni",
-                "dpto":"cusco"
+                "dpto":"Cusco"
             },
             "geometry":{
                 "type":"Point",
@@ -675,7 +675,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Manu Airport",
-                "dpto":"madre de dios"
+                "dpto":"Madre de Dios"
             },
             "geometry":{
                 "type":"Point",
@@ -689,7 +689,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Vicco Airport",
-                "dpto":"pasco"
+                "dpto":"Pasco"
             },
             "geometry":{
                 "type":"Point",
@@ -703,7 +703,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Capitán FAP Renán Elías Olivera International Airport",
-                "dpto":"ica"
+                "dpto":"Ica"
             },
             "geometry":{
                 "type":"Point",
@@ -717,7 +717,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Bayovar",
-                "dpto":"piura"
+                "dpto":"Piura"
             },
             "geometry":{
                 "type":"Point",
@@ -731,7 +731,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Atico Airport",
-                "dpto":"arequipa"
+                "dpto":"Arequipa"
             },
             "geometry":{
                 "type":"Point",
@@ -745,7 +745,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Huallaga Airport",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -759,7 +759,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aeropuerto Cadete FAP Guillermo del Castillo Paredes",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -773,7 +773,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Olmos Airport",
-                "dpto":"lambayeque"
+                "dpto":"Lambayeque"
             },
             "geometry":{
                 "type":"Point",
@@ -787,7 +787,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Alerta Airport",
-                "dpto":"madre de dios"
+                "dpto":"Madre de Dios"
             },
             "geometry":{
                 "type":"Point",
@@ -801,7 +801,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Shumba Airport",
-                "dpto":"cajamarca"
+                "dpto":"Cajamarca"
             },
             "geometry":{
                 "type":"Point",
@@ -815,7 +815,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Puerto Ocopa Airport",
-                "dpto":"junin"
+                "dpto":"Junín"
             },
             "geometry":{
                 "type":"Point",
@@ -829,7 +829,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aeropuerto Internacional Jorge Chávez",
-                "dpto":"lima"
+                "dpto":"Lima"
             },
             "geometry":{
                 "type":"Point",
@@ -843,7 +843,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Fausa Airport",
-                "dpto":"cusco"
+                "dpto":"Cusco"
             },
             "geometry":{
                 "type":"Point",
@@ -857,7 +857,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Areodromo de Sepahua",
-                "dpto":"ucayali"
+                "dpto":"Ucayali"
             },
             "geometry":{
                 "type":"Point",
@@ -871,7 +871,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Quiruvilca Airport",
-                "dpto":"la libertad"
+                "dpto":"La Libertad"
             },
             "geometry":{
                 "type":"Point",
@@ -885,7 +885,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Pucacaca Airport",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -899,7 +899,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Pacasmayo Airport",
-                "dpto":"la libertad"
+                "dpto":"La Libertad"
             },
             "geometry":{
                 "type":"Point",
@@ -913,7 +913,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Orcopampa Airport",
-                "dpto":"arequipa"
+                "dpto":"Arequipa"
             },
             "geometry":{
                 "type":"Point",
@@ -927,7 +927,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Shapaja Airport",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -941,7 +941,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Capitán FAP Leonardo Alvariño Herr Airport",
-                "dpto":"junin"
+                "dpto":"Junín"
             },
             "geometry":{
                 "type":"Point",
@@ -955,7 +955,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Baguá Airport",
-                "dpto":"amazonas"
+                "dpto":"Amazonas"
             },
             "geometry":{
                 "type":"Point",
@@ -969,7 +969,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aerodromo Kirigueti",
-                "dpto":"cusco"
+                "dpto":"Cusco"
             },
             "geometry":{
                 "type":"Point",
@@ -983,7 +983,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Yauri Airport",
-                "dpto":"cusco"
+                "dpto":"Cusco"
             },
             "geometry":{
                 "type":"Point",
@@ -997,7 +997,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Ciro Alegria Airport",
-                "dpto":"amazonas"
+                "dpto":"Amazonas"
             },
             "geometry":{
                 "type":"Point",
@@ -1011,7 +1011,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Trompeteros Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -1025,7 +1025,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Maria Reiche Neuman Airport",
-                "dpto":"ica"
+                "dpto":"Ica"
             },
             "geometry":{
                 "type":"Point",
@@ -1039,7 +1039,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Celendín Airport",
-                "dpto":"cajamarca"
+                "dpto":"Cajamarca"
             },
             "geometry":{
                 "type":"Point",
@@ -1053,7 +1053,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Cesar Torke Podesta Airport Moquegua",
-                "dpto":"moquegua"
+                "dpto":"Moquegua"
             },
             "geometry":{
                 "type":"Point",
@@ -1067,7 +1067,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Picota Airport",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -1080,7 +1080,7 @@ var peru={
         {
             "type":"Feature",
             "properties":{
-                "dpto":"tacna"
+                "dpto":"Tacna"
             },
             "geometry":{
                 "type":"Point",
@@ -1094,7 +1094,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"San Regis Airport",
-                "dpto":"ica"
+                "dpto":"Ica"
             },
             "geometry":{
                 "type":"Point",
@@ -1107,7 +1107,7 @@ var peru={
         {
             "type":"Feature",
             "properties":{
-                "dpto":"madre de dios"
+                "dpto":"Madre de Dios"
             },
             "geometry":{
                 "type":"Point",
@@ -1121,7 +1121,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Puerto Bermudez Airport",
-                "dpto":"pasco"
+                "dpto":"Pasco"
             },
             "geometry":{
                 "type":"Point",
@@ -1135,7 +1135,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Jaquí Airport",
-                "dpto":"arequipa"
+                "dpto":"Arequipa"
             },
             "geometry":{
                 "type":"Point",
@@ -1149,7 +1149,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"San José de Sisa Airport",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -1163,7 +1163,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Cunocuno Airport",
-                "dpto":"arequipa"
+                "dpto":"Arequipa"
             },
             "geometry":{
                 "type":"Point",
@@ -1177,7 +1177,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Pomacocha Airport",
-                "dpto":"ayacucho"
+                "dpto":"Ayacucho"
             },
             "geometry":{
                 "type":"Point",
@@ -1190,7 +1190,7 @@ var peru={
         {
             "type":"Feature",
             "properties":{
-                "dpto":"madre de dios"
+                "dpto":"Madre de Dios"
             },
             "geometry":{
                 "type":"Point",
@@ -1204,7 +1204,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Crnl. FAP Francisco Secada Vignetta International Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -1218,7 +1218,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Machu Pichu Airport",
-                "dpto":"cusco"
+                "dpto":"Cusco"
             },
             "geometry":{
                 "type":"Point",
@@ -1232,7 +1232,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aeropuerto Internacional Capitán FAP Víctor Montes Arias",
-                "dpto":"piura"
+                "dpto":"Piura"
             },
             "geometry":{
                 "type":"Point",
@@ -1246,7 +1246,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aeródromo de Tipishsa",
-                "dpto":"ucayali"
+                "dpto":"Ucayali"
             },
             "geometry":{
                 "type":"Point",
@@ -1260,7 +1260,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Coronel FAP Alfredo Mendivil Duarte Airport",
-                "dpto":"ayacucho"
+                "dpto":"Ayacucho"
             },
             "geometry":{
                 "type":"Point",
@@ -1274,7 +1274,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Imperial Airport",
-                "dpto":"huancavelica"
+                "dpto":"Huancavelica"
             },
             "geometry":{
                 "type":"Point",
@@ -1288,7 +1288,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Las Palmas Airport",
-                "dpto":"lima"
+                "dpto":"Lima"
             },
             "geometry":{
                 "type":"Point",
@@ -1302,7 +1302,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Mollendo Airport",
-                "dpto":"arequipa"
+                "dpto":"Arequipa"
             },
             "geometry":{
                 "type":"Point",
@@ -1316,7 +1316,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Casa Grande Airport",
-                "dpto":"la libertad"
+                "dpto":"La Libertad"
             },
             "geometry":{
                 "type":"Point",
@@ -1330,7 +1330,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Paramonga Airport",
-                "dpto":"lima"
+                "dpto":"Lima"
             },
             "geometry":{
                 "type":"Point",
@@ -1344,7 +1344,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aeropuerto Int. Cap. FAP Carlos Martínez de Pinillos",
-                "dpto":"la libertad"
+                "dpto":"La Libertad"
             },
             "geometry":{
                 "type":"Point",
@@ -1358,7 +1358,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Tumbes Airport",
-                "dpto":"tumbes"
+                "dpto":"Tumbes"
             },
             "geometry":{
                 "type":"Point",
@@ -1372,7 +1372,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Palcazú Airport",
-                "dpto":"pasco"
+                "dpto":"Pasco"
             },
             "geometry":{
                 "type":"Point",
@@ -1386,7 +1386,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aeropuerto Antonio Simons Vela",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -1400,7 +1400,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Chincha Airport",
-                "dpto":"ica"
+                "dpto":"Ica"
             },
             "geometry":{
                 "type":"Point",
@@ -1414,7 +1414,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"El Estrecho Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -1428,7 +1428,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Pampa Hermosa Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -1442,7 +1442,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Luisiana Airport",
-                "dpto":"cusco"
+                "dpto":"Cusco"
             },
             "geometry":{
                 "type":"Point",
@@ -1456,7 +1456,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"San Francisco Airport",
-                "dpto":"cusco"
+                "dpto":"Cusco"
             },
             "geometry":{
                 "type":"Point",
@@ -1470,7 +1470,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Comandante FAP Germán Arias Graziani Airport",
-                "dpto":"ancash"
+                "dpto":"Ancash"
             },
             "geometry":{
                 "type":"Point",
@@ -1484,7 +1484,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Shiringayoc/Hacienda Hda Mejia Airport",
-                "dpto":"madre de dios"
+                "dpto":"Madre de Dios"
             },
             "geometry":{
                 "type":"Point",
@@ -1498,7 +1498,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aerodromo de Nuevo Mundo",
-                "dpto":"cusco"
+                "dpto":"Cusco"
             },
             "geometry":{
                 "type":"Point",
@@ -1512,7 +1512,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aerodromo Las Malvinas",
-                "dpto":"cusco"
+                "dpto":"Cusco"
             },
             "geometry":{
                 "type":"Point",
@@ -1526,7 +1526,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Puerto Inca Airport",
-                "dpto":"huanuco"
+                "dpto":"Huanuco"
             },
             "geometry":{
                 "type":"Point",
@@ -1540,7 +1540,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Juan Simons Vela Airport",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -1554,7 +1554,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Lagunas Airport",
-                "dpto":"cajamarca"
+                "dpto":"Cajamarca"
             },
             "geometry":{
                 "type":"Point",
@@ -1568,7 +1568,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Masisea Airport",
-                "dpto":"ucayali"
+                "dpto":"Ucayali"
             },
             "geometry":{
                 "type":"Point",
@@ -1582,7 +1582,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Ciudad Constitucion Airport",
-                "dpto":"pasco"
+                "dpto":"Pasco"
             },
             "geometry":{
                 "type":"Point",
@@ -1596,7 +1596,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Requena Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -1610,7 +1610,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Toquepala Airport",
-                "dpto":"tacna"
+                "dpto":"Tacna"
             },
             "geometry":{
                 "type":"Point",
@@ -1624,7 +1624,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Pampa Grande Airport",
-                "dpto":"cajamarca"
+                "dpto":"Cajamarca"
             },
             "geometry":{
                 "type":"Point",
@@ -1638,7 +1638,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aeropuerto Internacional Coronel FAP Carlos Ciriani Santa Rosa",
-                "dpto":"tacna"
+                "dpto":"Tacna"
             },
             "geometry":{
                 "type":"Point",
@@ -1652,7 +1652,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Palmas del Espino Airport",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -1666,7 +1666,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aguas Calientes Airport",
-                "dpto":"huanuco"
+                "dpto":"Huanuco"
             },
             "geometry":{
                 "type":"Point",
@@ -1680,7 +1680,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Lamas Airport",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -1694,7 +1694,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Juanjui Airport",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -1708,7 +1708,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aeropuerto de Ilo",
-                "dpto":"moquegua"
+                "dpto":"Moquegua"
             },
             "geometry":{
                 "type":"Point",
@@ -1722,7 +1722,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Pozuzo Airport",
-                "dpto":"pasco"
+                "dpto":"Pasco"
             },
             "geometry":{
                 "type":"Point",
@@ -1736,7 +1736,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Galilea Airport",
-                "dpto":"amazonas"
+                "dpto":"Amazonas"
             },
             "geometry":{
                 "type":"Point",
@@ -1750,7 +1750,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Orellana Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -1764,7 +1764,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Miguel Grau airport",
-                "dpto":"ucayali"
+                "dpto":"Ucayali"
             },
             "geometry":{
                 "type":"Point",
@@ -1778,7 +1778,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Huancabamba Airport",
-                "dpto":"piura"
+                "dpto":"Piura"
             },
             "geometry":{
                 "type":"Point",
@@ -1792,7 +1792,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Yauca Airport",
-                "dpto":"arequipa"
+                "dpto":"Arequipa"
             },
             "geometry":{
                 "type":"Point",
@@ -1806,7 +1806,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Nauta Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -1820,7 +1820,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Moisés Benzaquen Rengifo Airport",
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -1834,7 +1834,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Chota Airport",
-                "dpto":"cajamarca"
+                "dpto":"Cajamarca"
             },
             "geometry":{
                 "type":"Point",
@@ -1848,7 +1848,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Zorrillos Airport",
-                "dpto":"ucayali"
+                "dpto":"Ucayali"
             },
             "geometry":{
                 "type":"Point",
@@ -1861,7 +1861,7 @@ var peru={
         {
             "type":"Feature",
             "properties":{
-                "dpto":"loreto"
+                "dpto":"Loreto"
             },
             "geometry":{
                 "type":"Point",
@@ -1875,7 +1875,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Siguas Airport",
-                "dpto":"arequipa"
+                "dpto":"Arequipa"
             },
             "geometry":{
                 "type":"Point",
@@ -1889,7 +1889,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Chala Airport",
-                "dpto":"arequipa"
+                "dpto":"Arequipa"
             },
             "geometry":{
                 "type":"Point",
@@ -1903,7 +1903,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aeródromo de Uchiza",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -1917,7 +1917,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Saposoa Airport",
-                "dpto":"san martin"
+                "dpto":"San Martín"
             },
             "geometry":{
                 "type":"Point",
@@ -1931,7 +1931,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Manuel Prado Ugarteche Airport",
-                "dpto":"junin"
+                "dpto":"Junín"
             },
             "geometry":{
                 "type":"Point",
@@ -1945,7 +1945,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Aeropuerto de Andahuaylas",
-                "dpto":"apurimac"
+                "dpto":"Apurimac"
             },
             "geometry":{
                 "type":"Point",
@@ -1959,7 +1959,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"My. Gral. FAP. Armando Revoredo Iglesias Airport",
-                "dpto":"cajamarca"
+                "dpto":"Cajamarca"
             },
             "geometry":{
                 "type":"Point",
@@ -1973,7 +1973,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Satipo Airport",
-                "dpto":"junin"
+                "dpto":"Junín"
             },
             "geometry":{
                 "type":"Point",
@@ -1987,7 +1987,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Caraveli Airport",
-                "dpto":"arequipa"
+                "dpto":"Arequipa"
             },
             "geometry":{
                 "type":"Point",
@@ -2001,7 +2001,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Areodromo de Tournavista",
-                "dpto":"huanuco"
+                "dpto":"Huanuco"
             },
             "geometry":{
                 "type":"Point",
@@ -2015,7 +2015,7 @@ var peru={
             "type":"Feature",
             "properties":{
                 "name":"Puerto Victoria Airport",
-                "dpto":"pasco"
+                "dpto":"Pasco"
             },
             "geometry":{
                 "type":"Point",
