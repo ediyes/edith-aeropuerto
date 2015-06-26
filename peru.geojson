@@ -30,19 +30,7 @@ var peru={
                 ]
             }
         },
-        {
-            "type":"Feature",
-            "properties":{
-                "dpto":"Ucayali"
-            },
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -70.9035776,
-                    -9.9623168
-                ]
-            }
-        },
+       
         {
             "type":"Feature",
             "properties":{

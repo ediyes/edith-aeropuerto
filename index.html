@@ -10,9 +10,75 @@
 <style>
   body { margin:0; padding:0; }
   #map { position:absolute; top:0; bottom:0; width:100%; }
+  .menu-ui {
+  background:#2EFEF7;
+  position:absolute;
+  top:10px;right:10px;
+  z-index:1;
+  border-radius:3px;
+  width:150px;
+  border:1px solid rgba(0,0,0,0.4);
+  }
+  .menu-ui a {
+    font-size:14px;
+    color:#000000;
+    font-family: impact; 
+    display:block;
+    margin:0;padding:0;
+    padding:10px;
+    text-decoration:none;
+    border-bottom:1px solid rgba(0,0,0,0.25);
+    text-align:center;
+    }
+    .menu-ui a:first-child {
+      border-radius:3px 3px 0 0;
+      }
+    .menu-ui a:last-child {
+      border:none;
+      border-radius:0 0 3px 3px;
+      }
+    .menu-ui a:hover {
+      background:#A4A4A4;
+      color:#000000;
+      font-family: impact;
+      font-size: 14px; 
+      }
+    .menu-ui a.active {
+      background:#A4A4A4;
+      color:#000000;
+      font-family: impact; 
+      font-size: 14px; 
+      }
+      .menu-ui a.active:hover {
+        background:#A4A4A4;
+        color:#000000;
+        font-family: impact; 
+        font-size: 14px; 
+        }
+      .hola{
+        width: 650px;
+        position: absolute;
+        left: 50px;
+        top: 10px;
+        height: 50px;
+        background: #2EFEF7;
+        z-index: 999;
+        }
+.titulo{
+    font-family: stencil; 
+    color: #000000;
+    font-size: 50px;
+}
+
+        
+
+      }
 </style>
 </head>
 <body>
+<nav id='menu-ui' class='menu-ui'></nav>
+<div class="hola"> <span class="titulo"> AEROPUERTOS DEL PERÚ</span></div>;
+
 <div id='map'></div>
 <script>
 for (var i = 0; i < peru.features.length; i++) {
@@ -22,24 +88,170 @@ for (var i = 0; i < peru.features.length; i++) {
     peru.features[i].properties["title"]=peru.features[i].properties.name;
     peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/1 ('+(i+1)+').png"></img>';
 
+   if(peru.features[i].properties.dpto=="Amazonas"){
+    peru.features[i].properties["marker-color"]="#F79F81";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/amazonas.jpg"></img>';
+    }
+   if(peru.features[i].properties.dpto=="Ancash"){
+    peru.features[i].properties["marker-color"]="#F6E3CE";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/ancash.jpg"></img>';
+    }
+   if(peru.features[i].properties.dpto=="Apurimac"){
+    peru.features[i].properties["marker-color"]="#FFFF00";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/apurimac.jpg"></img>';
+    }
+   if(peru.features[i].properties.dpto=="Arequipa"){
+    peru.features[i].properties["marker-color"]="#FA58AC";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/arequipa.jpg"></img>';
+    }
    if(peru.features[i].properties.dpto=="Ayacucho"){
-    peru.features[i].properties["marker-color"]="#0000ff";
+    peru.features[i].properties["marker-color"]="#BE81F7";
     peru.features[i].properties["marker-symbol"]="airport"; 
     peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/ayacucho.jpg"></img>';
     }
-
-    if(peru.features[i].properties.dpto=="Apurimac"){
-    peru.features[i].properties["marker-color"]="FCEF06";
+    if(peru.features[i].properties.dpto=="Cajamarca"){
+    peru.features[i].properties["marker-color"]="#8258FA";
     peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/cajamarca.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Cusco"){
+    peru.features[i].properties["marker-color"]="8258FA";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/cusco.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Huancavelica"){
+    peru.features[i].properties["marker-color"]="#81F781";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/huancavelica.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Huanuco"){
+    peru.features[i].properties["marker-color"]="8258FA";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/huanuco.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Ica"){
+    peru.features[i].properties["marker-color"]="#F6E3CE";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/ica.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Junín"){
+    peru.features[i].properties["marker-color"]="#F79F81";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/junin.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="La Libertad"){
+    peru.features[i].properties["marker-color"]="63F073";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/lalibertad.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Lambayeque"){
+    peru.features[i].properties["marker-color"]="#FA58AC";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/lambayeque.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Lima"){
+    peru.features[i].properties["marker-color"]="72C9A1";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/lima.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Loreto"){
+    peru.features[i].properties["marker-color"]="0E8905";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/loreto.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Madre de Dios"){
+    peru.features[i].properties["marker-color"]="0E8905";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/madrededios.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Moquegua"){
+    peru.features[i].properties["marker-color"]="#BE81F7";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/moquegua.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Pasco"){
+    peru.features[i].properties["marker-color"]="#FA58AC";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/pasco.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Piura"){
+    peru.features[i].properties["marker-color"]="#BE81F7";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/piura.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Puno"){
+    peru.features[i].properties["marker-color"]="72C9A1";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/puno.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="San Martín"){
+    peru.features[i].properties["marker-color"]="#FFFF00";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/san martin.jpg"></img>';
+    }
+   if(peru.features[i].properties.dpto=="Tacna"){
+    peru.features[i].properties["marker-color"]="F8D3FA";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/tacna.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Tumbes"){
+    peru.features[i].properties["marker-color"]="#FFFF00";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/tumbes.jpg"></img>';
+    }
+    if(peru.features[i].properties.dpto=="Ucayali"){
+    peru.features[i].properties["marker-color"]="#BE81F7";
+    peru.features[i].properties["marker-symbol"]="airport"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/ucayali.jpg"></img>';
     }
 
 
-   
+
 };
 L.mapbox.accessToken = 'pk.eyJ1IjoiZWRpeWVzIiwiYSI6Im5WZElPMjgifQ.J-9jIpcP3KnYZfCtXpj0vg';
-L.mapbox.map('map', 'mapbox.streets')
+var map = L.mapbox.map('map', 'ediyes.mi9l24cj')
   .setView([-13, -72], 4)
   .featureLayer.setGeoJSON(peru);
+
+
+
+  var layers = document.getElementById('menu-ui');
+
+addLayer(L.mapbox.tileLayer('ediyes.mialc2ej'), 'Style Dark', 1);
+addLayer(L.mapbox.tileLayer('ediyes.mial4fp0'), 'Style High Contrast', 2);
+addLayer(L.mapbox.tileLayer('ediyes.miaknpeh'), 'Style Emerald', 3);
+
+function addLayer(layer, name, zIndex) {
+    layer
+        .setZIndex(zIndex)
+        .addTo(map);
+
+    // Create a simple layer switcher that
+    // toggles layers on and off.
+    var link = document.createElement('a');
+        link.href = '#';
+        link.className = 'active';
+        link.innerHTML = name;
+
+    link.onclick = function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        if (map.hasLayer(layer)) {
+            map.removeLayer(layer);
+            this.className = '';
+        } else {
+            map.addLayer(layer);
+            this.className = 'active';
+        }
+    };
+
+    layers.appendChild(link);
+}
 </script>
 
 
