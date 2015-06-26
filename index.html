@@ -20,11 +20,12 @@ for (var i = 0; i < peru.features.length; i++) {
     peru.features[i].properties["marker-color"]="00ffff";
     peru.features[i].properties["marker-symbol"]="airport";
     peru.features[i].properties["title"]=peru.features[i].properties.name;
-    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="./img/1 ('+(i+1)+').png"></img>';
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/1 ('+(i+1)+').png"></img>';
 
    if(peru.features[i].properties.dpto=="ayacucho"){
     peru.features[i].properties["marker-color"]="#0000ff";
     peru.features[i].properties["marker-symbol"]="lodging"; 
+    peru.features[i].properties["description"] ='Departamento : ' + peru.features[i].properties.dpto + '<img width="200px" src="http://ediyes.github.io/edith-aeropuerto/img/ayacucho.jpg"></img>';
     }
     if(peru.features[i].properties.dpto=="apurimac"){
     peru.features[i].properties["marker-color"]="#346";
